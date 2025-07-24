@@ -1,0 +1,7 @@
+// --- render.yaml ---
+services:
+  - type: web
+    name: visual-web-checker
+    env: docker
+    plan: free
+    autoDeploy: true
